@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authentication" />
+        <module name="dropbox" />
+        <module name="kindle" />
+        <module name="launcher" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authentication" target="9" />
+      <module name="dropbox" target="9" />
+      <module name="HomeLibrary" target="9" />
+      <module name="kindle" target="9" />
+      <module name="launcher" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
